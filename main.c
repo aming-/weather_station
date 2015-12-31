@@ -77,7 +77,7 @@ int main(void)
 			* The pressure sensor is located approximately 150 meters over
 			* sea level
 			*/
-				sealvl = convertToSeaLevel(pressure, 150.0);
+				sealvl = convertToSeaLevel(pressure, 10.0);
 
 			//printf("BMP085 Temp=%1.1f° Pressure %1.2fhPa Sea level %1.2fhPa\n", temp, pressure, sealvl);
 			//} else {

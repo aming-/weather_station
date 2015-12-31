@@ -1,0 +1,34 @@
+body{
+	font-size: 100%;   /*dimensionamento percentuale del font */
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	width: 100%;
+	height: 100%;
+	margin: 0px;   /*centra negli altri browsers*/
+	text-align: center;   /*ripristina l' allineamento*/
+	background-color: #E8F2F4;
+	float: none;
+    }
+
+#frame{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+#frame2{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+
+#content {
+	background: #EEE;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	padding: 0 10px 0 10px;
+	margin: auto;
+	font: 1.5em arial, verdana, sans-serif;
+	width: 260px;
+	height: 100%;
+}
